@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+        <button class="access-site">Accedi al tuo sito</button>
+        <button class="logout">Log Out</button>
+    </header>
+
+    <main>
+        <h1>Ciao @user, Benvenuto nella Dashboard di Amministrazione</h1>
+        <div class="grid-container">
+            <div class="card">
+                <h2>Accedi come Admin al tuo sito</h2>
+                <button class="action-button">Accedi</button>
+            </div>
+            <div class="card">
+                <h2>Accedi alla WebMail</h2>
+                <select>
+                    <option>Seleziona la mail alla quale vuoi accedere</option>
+                </select>
+                <button class="action-button">Accedi</button>
+            </div>
+            <div class="card">
+                <h2>Crea nuova E-Mail</h2>
+                <input type="text" placeholder="Inserisci nuova email">
+                <button class="action-button">Crea</button>
+            </div>
+            <div class="card">
+                <h2>Richiedi un nuovo sotto Dominio</h2>
+                <input type="text" placeholder="Inserisci sotto dominio">
+                <button class="action-button">Crea</button>
+            </div>
+            <div class="card">
+                <h2>Stato SSD / Archiviazione</h2>
+                <div class="status">
+                    <div class="circle yellow"></div>
+                    <span>Quasi Esaurita</span>
+                </div>
+                <p>Hai esaurito la memoria concessa?</p>
+                <button class="action-button">Acquista</button>
+            </div>
+            <div class="card">
+                <h2>Accesso tramite FTP</h2>
+                <p>Host:<br>Porta:<br>User:<br>Password:<br>Root directory:</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <button class="delete-site">Elimina Sito</button>
+        <p>Perderai tutti i dati e non è previsto un rimborso</p>
+    </footer>
+</body>
+</html>
