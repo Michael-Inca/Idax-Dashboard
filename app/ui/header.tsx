@@ -1,5 +1,5 @@
 import Image from "next/image"
-import {SiteAccess, LogOut} from "./buttons"
+import {SiteAccess, LogOut} from "./forms"
 
 export default function Header(){
     return(
